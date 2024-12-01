@@ -575,7 +575,11 @@ SENSOR_DATA = {
     "purolator_tracking": {"pattern": ["\\d{12,15}"]},
     # Intelcom
     "intelcom_delivered": {
-        "email": ["notifications@intelcom.ca", "notifications@dragonflyshipping.ca", "notifications@dragonflyshipping.com"],
+        "email": [
+            "notifications@intelcom.ca",
+            "notifications@dragonflyshipping.ca",
+            "notifications@dragonflyshipping.com",
+        ],
         "subject": [
             "Your order has been delivered!",
             "Your package has been delivered",
@@ -585,7 +589,11 @@ SENSOR_DATA = {
         ],
     },
     "intelcom_delivering": {
-        "email": ["notifications@intelcom.ca", "notifications@dragonflyshipping.ca", "notifications@dragonflyshipping.com"],
+        "email": [
+            "notifications@intelcom.ca",
+            "notifications@dragonflyshipping.ca",
+            "notifications@dragonflyshipping.com",
+        ],
         "subject": [
             "Your package is on the way!",
             "Your package is on its way",
@@ -593,7 +601,11 @@ SENSOR_DATA = {
         ],
     },
     "intelcom_packages": {
-        "email": ["notifications@intelcom.ca", "notifications@dragonflyshipping.ca", "notifications@dragonflyshipping.com"],
+        "email": [
+            "notifications@intelcom.ca",
+            "notifications@dragonflyshipping.ca",
+            "notifications@dragonflyshipping.com",
+        ],
         "subject": [
             "Your package has been received!",
             "We've received your package",
